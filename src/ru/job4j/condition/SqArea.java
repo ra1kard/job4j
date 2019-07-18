@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class SqArea {
     public static int square(int p, int k){
-        int w;                          //сторона w
+        int w;                          //сторона w!
         int h;                          //сторона h
         int s;                          //площадь
         int sumAB = p / 2;              //сумма сторон w и h согласно формуле: P=2(w+h) -> P/2=w+h
