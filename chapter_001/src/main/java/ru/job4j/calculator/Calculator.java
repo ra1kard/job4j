@@ -27,10 +27,11 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-/*      add(1, 1);
-        div(4, 2);
-        multiply(2, 1);
-        subtract(10, 5);*/
+        Calculator calculator = new Calculator();
+        calculator.add(1, 1);
+        calculator.div(4,2);
+        calculator.multiply(2,1);
+        calculator.subtract(10,5);
     }
 
 }
