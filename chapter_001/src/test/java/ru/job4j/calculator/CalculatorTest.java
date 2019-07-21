@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 
 public class CalculatorTest {
     /**
-     * Test add, div, multiply, subtrack.
+     * Test add, div, multiply, subtract.
      */
 
     @Test
@@ -41,8 +41,8 @@ public class CalculatorTest {
 
     @Test
     public void whenSevenToTwoThenFive(){
-        Calculator calcSubtrack = new Calculator();
-        double result = calcSubtrack.subtrack(7, 2);
+        Calculator calcSubtract = new Calculator();
+        double result = calcSubtract.subtract(7, 2);
         assertThat(result, is(5.0));
     }
 

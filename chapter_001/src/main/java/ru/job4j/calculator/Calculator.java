@@ -20,7 +20,7 @@ public class Calculator {
         return result;
     }
 
-    public Double subtrack(double first, double second){
+    public Double subtract(double first, double second){
         double result = first - second;
         System.out.println(first + " - " + second + " = " + result);
         return result;
@@ -30,7 +30,7 @@ public class Calculator {
 /*      add(1, 1);
         div(4, 2);
         multiply(2, 1);
-        subtrack(10, 5);*/
+        subtract(10, 5);*/
     }
 
 }
