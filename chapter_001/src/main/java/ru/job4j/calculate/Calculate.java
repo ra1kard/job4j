@@ -1,11 +1,11 @@
 package ru.job4j.calculate;
 
 /**
- * Calculate.
+ * Calculate - класс для вычисления арифметических операций.
  *
  * @author Stanislav Kufarev (91raykard@gmail.com)
- * @version $Id$
- * @since 0.1
+ * @version 1
+ * @since 24.07.2019
  */
 
 public class Calculate {
