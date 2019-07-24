@@ -19,28 +19,28 @@ public class CalculatorTest {
      */
 
     @Test
-    public void whenAddFiveToNineThenFourteen(){
+    public void whenAddFiveToNineThenFourteen() {
         Calculator calcAdd = new Calculator();
         double result = calcAdd.add(5, 9);
         assertThat(result, is(14.0));
     }
 
     @Test
-    public void whenDivNineToThreeThenThree(){
+    public void whenDivNineToThreeThenThree() {
         Calculator calcDiv = new Calculator();
         double result = calcDiv.div(9, 3);
         assertThat(result, is(3.0));
     }
 
     @Test
-    public void whenMultiplyFourToTwoThenEight(){
+    public void whenMultiplyFourToTwoThenEight() {
         Calculator calcMultiply = new Calculator();
         double result = calcMultiply.multiply(4, 2);
         assertThat(result, is(8.0));
     }
 
     @Test
-    public void whenSevenToTwoThenFive(){
+    public void whenSevenToTwoThenFive() {
         Calculator calcSubtract = new Calculator();
         double result = calcSubtract.subtract(7, 2);
         assertThat(result, is(5.0));
