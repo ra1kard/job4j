@@ -1,9 +1,11 @@
 package ru.job4j.condition;
 
 /**
- * @author = Stanislav Kufarev (91raykard@gmail.com)
- * @version $Id$
- * @since 0.1
+ * DummyBot - класс "Глупый бот".
+ *
+ * @author Stanislav Kufarev (91raykard@gmail.com)
+ * @version 1
+ * @since ________________________________________________.07.2019
  */
 public class DummyBot {
     /**

@@ -4,6 +4,13 @@ import org.junit.Test;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
+/**
+ * MultiMaxTest - тест для вычисления максимума из трех чисел.
+ *
+ * @author Stanislav Kufarev (91raykard@gmail.com)
+ * @version 1
+ * @since 27.07.2019
+ */
 public class MultiMaxTest {
     @Test
     public void whenSecondMax() {

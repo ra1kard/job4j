@@ -2,6 +2,13 @@ package ru.job4j.condition;
 
 import java.awt.*;
 
+/**
+ * Triangle - класс для вычисления площади треугольника.
+ *
+ * @author Stanislav Kufarev (91raykard@gmail.com)
+ * @version 1
+ * @since 27.07.2019
+ */
 public class Triangle {
 
     /**
@@ -27,7 +34,7 @@ public class Triangle {
      * @return
      */
     private boolean exist(double a, double c, double b) {
-        if ((a<(b+c))&&(b<(a+c))&&(c<(a+b))){
+        if ((a<(b+c))&&(b<(a+c))&&(c<(a+b))) {
             return true;
         }  else {
             return false;

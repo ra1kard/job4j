@@ -7,7 +7,6 @@ package ru.job4j.calculate;
  * @version 1
  * @since 24.07.2019
  */
-
 public class Calculate {
     /**
      * Main

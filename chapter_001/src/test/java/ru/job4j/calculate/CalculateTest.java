@@ -5,17 +5,16 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Test.
+ * CalculateTest - тест для вычисления арифметических операций.
  *
  * @author Stanislav Kufarev (91raykard@gmail.com)
- * @version $Id$
- * @since 0.1
+ * @version 1
+ * @since 24.07.2019
  */
 public class CalculateTest {
     /**
      * Test echo.
      */
-
     @Test
     public void whenTakeNameThenThreeEchoPlusName() {
         String input = "Stanislav Kufarev";

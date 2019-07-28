@@ -5,6 +5,13 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
+/**
+ * FactorialTest - тест для вычисления факториала.
+ *
+ * @author Stanislav Kufarev (91raykard@gmail.com)
+ * @version 1
+ * @since 27.07.2019
+ */
 public class FactorialTest {
     @Test
     public void whenCalculateFactorialForFiveThenOneHundreedTwenty() {

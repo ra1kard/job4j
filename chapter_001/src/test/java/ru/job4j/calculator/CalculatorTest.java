@@ -6,18 +6,13 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;
 
 /**
- * Test.
+ * CalculatorTest - тест калькулятора.
  *
  * @author Stanislav Kufarev (91raykard@gmail.com)
- * @version $Id$
- * @since 0.1
+ * @version 1
+ * @since 21.07.2019
  */
-
 public class CalculatorTest {
-    /**
-     * Test add, div, multiply, subtract.
-     */
-
     @Test
     public void whenAddFiveToNineThenFourteen() {
         Calculator calcAdd = new Calculator();
@@ -45,5 +40,4 @@ public class CalculatorTest {
         double result = calcSubtract.subtract(7, 2);
         assertThat(result, is(5.0));
     }
-
 }
