@@ -5,7 +5,7 @@ package ru.job4j.loop;
  *
  * @author Stanislav Kufarev (91raykard@gmail.com)
  * @version 1
- * @since 28.07.2019
+ * @since 06.08.2019
  */
 
 public class Mortgage {
