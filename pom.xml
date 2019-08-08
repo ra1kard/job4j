@@ -15,6 +15,7 @@
 
     <modules>
         <module>chapter_001</module>
+        <module>head_first_java</module>
     </modules>
     <dependencies>
         <dependency>
