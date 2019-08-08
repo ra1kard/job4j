@@ -1,4 +1,4 @@
-package com.oreilly.сhapter1;
+package com.oreilly.chapter_1;
 
 //page43
 public class DoBee {
