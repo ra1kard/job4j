@@ -1,7 +1,7 @@
 package com.oreilly.chapter_1;
 
 //page51
-public class Exercise1b {
+public class Exercise1c {
     public static void main(String[] args) {
         int x = 5;
         while (x > 1) {
