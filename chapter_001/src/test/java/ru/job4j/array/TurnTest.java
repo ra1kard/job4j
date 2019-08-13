@@ -15,7 +15,38 @@ public class TurnTest {
     }
 
     @Test
+    public void whenTurnArrayWithEvenAmountOfElementsThenTurnedArray2(){
+        Turn turner = new Turn();
+        int[] input = new int[] {3, 5, 6, 1, 8, 9, 3, 2};
+        int[] result = turner.back(input);
+        int[] expect = new int[] {2, 3, 9, 8, 1, 6, 5, 3};
+        assertThat(result, is(expect));
+    }
+
+    @Test
+    public void whenTurnArrayWithEvenAmountOfElementsThenTurnedArray3(){
+        Turn turner = new Turn();
+        int[] input = new int[] {7, 3};
+        int[] result = turner.back(input);
+        int[] expect = new int[] {3, 7};
+        assertThat(result, is(expect));
+    }
+
+    @Test
     public void whenTurnArrayWithOddAmountOfElementsThenTurnedArray() {
-        //напишите здесь тест, проверяющий переворот массива с нечётным числом элементов, например {1, 2, 3, 4, 5}.
+        Turn turner = new Turn();
+        int[] input = new int[] {1, 2, 3, 4, 5};
+        int[] result = turner.back(input);
+        int[] expect = new int[] {5, 4, 3, 2, 1};
+        assertThat(result, is(expect));
+    }
+
+    @Test
+    public void whenTurnArrayWithOddAmountOfElementsThenTurnedArray2() {
+        Turn turner = new Turn();
+        int[] input = new int[] {7, 3, 5};
+        int[] result = turner.back(input);
+        int[] expect = new int[] {5, 3, 7};
+        assertThat(result, is(expect));
     }
 }
