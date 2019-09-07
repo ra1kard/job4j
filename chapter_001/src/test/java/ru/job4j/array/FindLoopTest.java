@@ -5,8 +5,9 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class FindLoopTest {
+
     @Test
-    public void whenArrayHas5Then0() {
+    public void whenArrayHasLengh5Then0() {
         FindLoop find = new FindLoop();
         int[] input = new int[] {5, 10, 3};
         int value = 5;
@@ -16,23 +17,53 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas10Then1() {
+    public void whenFind3() {
         FindLoop find = new FindLoop();
-        int[] input = new int[] {5, 10, 3};
-        int value = 10;
-        int result = find.indexOf(input, value);
-        int expect = 1;
+        int[] input = new int[] {5, 2, 10, 2, 4};
+        int value = 2;
+        int start = 2;
+        int finish = 4;
+        int result = find.indexOf(input, value, start, finish);
+        int expect = 3;
         assertThat(result, is(expect));
     }
 
     @Test
-    public void whenArrayHas3Then2() {
+    public void whenFindNo() {
         FindLoop find = new FindLoop();
-        int[] input = new int[] {5, 10, 3};
-        //намеренно вводим элемент value = 4, которого нет в массиве в значении [2] (тест не пройден)
-        int value = 4;
-        int result = find.indexOf(input, value);
-        int expect = 2;
+        int[] input = new int[] {5, 2, 10, 2, 4};
+        int value = 1;
+        int start = 2;
+        int finish = 4;
+        int result = find.indexOf(input, value, start, finish);
+        int expect = -1;
+        assertThat(result, is(expect));
+    }
+
+    @Test
+    public void whenSort5() {
+        FindLoop find = new FindLoop();
+        int[] input = new int[] {3, 4, 1, 5, 2};
+        int result[] = find.sort(input);
+        int[] expect = new int[] {1, 2, 3, 4, 5};
+        assertThat(result, is(expect));
+    }
+
+    @Test
+    public void whenSort4() {
+        FindLoop find = new FindLoop();
+        int[] input = new int[] {3, 2, 9, 1};
+        int result[] = find.sort(input);
+        int[] expect = new int[] {1, 2, 3, 9};
+        assertThat(result, is(expect));
+    }
+
+    @Test
+    public void whenSort3() {
+        FindLoop find = new FindLoop();
+        int[] input = new int[] {7, 2, 5};
+        int result[] = find.sort(input);
+        int[] expect = new int[] {2, 5, 7};
         assertThat(result, is(expect));
     }
 }
