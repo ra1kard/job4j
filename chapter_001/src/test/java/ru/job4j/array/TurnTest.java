@@ -67,4 +67,13 @@ public class TurnTest {
         String[] expect = new String[] {"8", "7", "6", "5", "4", "3", "2", "1", "h", "a", "n", "n", "a", "H"};
         assertThat(result, is(expect));
     }
+
+    @Test
+    public void whenTaskNika() {
+        Turn turner = new Turn();
+        String[] input = new String[] {"8"};
+        String[] result = turner.back(input);
+        String[] expect = new String[] {"8"};
+        assertThat(result, is(expect));
+    }
 }
