@@ -49,4 +49,22 @@ public class TurnTest {
         int[] expect = new int[] {5, 3, 7};
         assertThat(result, is(expect));
     }
+
+    @Test
+    public void whenTaskTanya() {
+        Turn turner = new Turn();
+        String[] input = new String[] {"h", "e", "l", "l", "o"};
+        String[] result = turner.back(input);
+        String[] expect = new String[] {"o","l","l","e","h"};
+        assertThat(result, is(expect));
+    }
+
+    @Test
+    public void whenTaskTanya2() {
+        Turn turner = new Turn();
+        String[] input = new String[] {"H", "a", "n", "n", "a", "h", "1", "2", "3", "4", "5", "6", "7", "8"};
+        String[] result = turner.back(input);
+        String[] expect = new String[] {"8", "7", "6", "5", "4", "3", "2", "1", "h", "a", "n", "n", "a", "H"};
+        assertThat(result, is(expect));
+    }
 }

@@ -12,4 +12,13 @@ public class Turn {
         }
         return array;
     }
+
+    public String[] back(String[] array) {
+        for (int i = 0; i < array.length-(array.length/2); i++) {
+            String tmp = array[i];
+            array[i] = array[array.length - 1 - i];
+            array[array.length - 1 - i] = tmp;
+        }
+        return array;
+    }
 }
