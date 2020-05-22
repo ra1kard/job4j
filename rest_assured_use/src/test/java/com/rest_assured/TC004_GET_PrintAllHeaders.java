@@ -24,7 +24,7 @@ public class TC004_GET_PrintAllHeaders {
         RequestSpecification httpRequest=RestAssured.given();
 
         //Response object
-        Response response = httpRequest.request(Method.GET,"/maps/api/place/nearbysearch/xml?location=-33.8670522,151.1957362&radius=1500&type=supermarket&key=AIzaSyCB9c9lr0NPehxFtWbdhgLJbwlujXe95VA");
+        Response response = httpRequest.request(Method.GET,"/maps/api/place/nearbysearch/xml?location=-33.8670522,151.1957362&radius=1500&type=supermarket&key=AIzaSyCcssYbQb1EcciyAqR-rs6xFjpDIz5K1GU");
 
         //print response in console window
         String responseBody = response.getBody().asString();

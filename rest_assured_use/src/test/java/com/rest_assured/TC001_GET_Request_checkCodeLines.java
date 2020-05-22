@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 //Weather API Validate status code & statis line
-public class TC001_GET_Request_Code_Lines {
+public class TC001_GET_Request_checkCodeLines {
 
     @Test
     public void getweatherDetails(){

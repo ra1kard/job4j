@@ -9,7 +9,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 //Register Customer API
-public class TC002_POST_Request_Body {
+public class TC002_POST_Request_Body_checkValueBody {
 
     @Test
     public void RegistrationSuccessful(){

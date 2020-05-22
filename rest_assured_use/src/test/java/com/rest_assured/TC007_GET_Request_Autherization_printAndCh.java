@@ -8,7 +8,7 @@ import io.restassured.specification.RequestSpecification;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TC007_GET_Request_Autherization {
+public class TC007_GET_Request_Autherization_printAndCh {
 
     @Test
     public void AutherizationTest() {
