@@ -1,9 +1,4 @@
-package com.oreilly.chapter_1;
-
-public class Books {
-    String title;
-    String autor;
-}
+package com.oreilly.chapter_3.Books;
 
 class BooksTestDrive {
     public static void main(String[] args) {
@@ -22,7 +17,7 @@ class BooksTestDrive {
 
         while (x < 3) {
             System.out.print(myBooks[x].title);
-            System.out.print(" , автор ");
+            System.out.print(", автор ");
             System.out.println(myBooks[x].autor);
             x = x + 1;
         }

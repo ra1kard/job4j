@@ -18,6 +18,7 @@
         <module>chapter_001</module>
         <module>head_first_java</module>
         <module>rest_assured_use</module>
+        <module>JavaLessons</module>
     </modules>
     <dependencies>
         <dependency>

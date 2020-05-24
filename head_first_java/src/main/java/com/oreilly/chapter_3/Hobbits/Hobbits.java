@@ -1,6 +1,4 @@
-package com.oreilly.chapter_1;
-
-import org.w3c.dom.ls.LSOutput;
+package com.oreilly.chapter_3.Hobbits;
 
 public class Hobbits {
     String name;
